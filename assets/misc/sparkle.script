@@ -1,5 +1,5 @@
 local p1 = "/sword_amethyst#sprakle"; local p2 = "/sword_copper#sprakle"; local p3 = "/sword_ice#sprakle"; local p4 = "/sword_metal#sprakle"
-local time_txt = "/time#time"; local mat = "/sword_metal#sprite"
+
 
 local function spark(p)
 
