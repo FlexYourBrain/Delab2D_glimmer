@@ -1,0 +1,468 @@
+name: "main"
+scale_along_z: 0
+embedded_instances {
+  id: "misc"
+  children: "logo"
+  children: "title"
+  data: "components {\n"
+  "  id: \"bg\"\n"
+  "  component: \"/assets/misc/bg.tilemap\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "components {\n"
+  "  id: \"sparkle\"\n"
+  "  component: \"/assets/misc/sparkle.script\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "sword_metal"
+  data: "components {\n"
+  "  id: \"sprakle\"\n"
+  "  component: \"/assets/misc/sprakle.particlefx\"\n"
+  "  position {\n"
+  "    x: 2.332\n"
+  "    y: -33.979\n"
+  "    z: 0.1\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"shadow\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/misc/shadow.atlas\\\"\\n"
+  "default_animation: \\\"sword_shadow\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_MULT\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 7.888\n"
+  "    y: 1.211\n"
+  "    z: 0.1\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: -1.2714921E-20\n"
+  "    y: -2.2074555E-20\n"
+  "    z: -0.028635956\n"
+  "    w: 0.9995899\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/misc/items.atlas\\\"\\n"
+  "default_animation: \\\"sword\\\"\\n"
+  "material: \\\"/assets/shader/glimmer.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.2\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 285.0
+    y: 117.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: -0.2197158
+    w: 0.9755639
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "sword_amethyst"
+  data: "components {\n"
+  "  id: \"sprakle\"\n"
+  "  component: \"/assets/misc/sprakle.particlefx\"\n"
+  "  position {\n"
+  "    x: 2.332\n"
+  "    y: -33.979\n"
+  "    z: 0.1\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"shadow\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/misc/shadow.atlas\\\"\\n"
+  "default_animation: \\\"sword_shadow\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_MULT\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -11.158\n"
+  "    y: -4.27\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: -0.034002807\n"
+  "    w: 0.9994217\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/misc/items.atlas\\\"\\n"
+  "default_animation: \\\"sword_amethyst\\\"\\n"
+  "material: \\\"/assets/shader/glimmer.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.1\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 132.0
+    y: 108.0
+    z: 0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.9834211
+    w: 0.18133661
+  }
+  scale3 {
+    x: 0.75
+    y: 0.75
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "sword_copper"
+  data: "components {\n"
+  "  id: \"sprakle\"\n"
+  "  component: \"/assets/misc/sprakle.particlefx\"\n"
+  "  position {\n"
+  "    x: 2.332\n"
+  "    y: -33.979\n"
+  "    z: 0.1\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/misc/items.atlas\\\"\\n"
+  "default_animation: \\\"sword_copper\\\"\\n"
+  "material: \\\"/assets/shader/glimmer.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.2\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"shadow\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/misc/shadow.atlas\\\"\\n"
+  "default_animation: \\\"sword_shadow\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_MULT\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 12.697\n"
+  "    y: -1.301\n"
+  "    z: 0.1\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: -0.042435333\n"
+  "    w: 0.9990992\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 51.0
+    y: 114.0
+    z: 0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.31159243
+    w: 0.9502159
+  }
+  scale3 {
+    x: 0.7
+    y: 0.7
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "sword_ice"
+  data: "components {\n"
+  "  id: \"sprakle\"\n"
+  "  component: \"/assets/misc/sprakle.particlefx\"\n"
+  "  position {\n"
+  "    x: 2.332\n"
+  "    y: -33.979\n"
+  "    z: 0.1\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"shadow\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/misc/shadow.atlas\\\"\\n"
+  "default_animation: \\\"sword_shadow\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_MULT\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: -26.675\n"
+  "    y: 4.255\n"
+  "    z: 0.1\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: -0.098852396\n"
+  "    w: 0.9951021\n"
+  "  }\n"
+  "}\n"
+  "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/misc/items.atlas\\\"\\n"
+  "default_animation: \\\"sword_ice\\\"\\n"
+  "material: \\\"/assets/shader/glimmer.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.2\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 192.0
+    y: 83.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: -0.9954037
+    w: 0.095767915
+  }
+  scale3 {
+    x: 0.65
+    y: 0.65
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "title"
+  data: "embedded_components {\n"
+  "  id: \"label\"\n"
+  "  type: \"label\"\n"
+  "  data: \"size {\\n"
+  "  x: 70.0\\n"
+  "  y: 15.0\\n"
+  "  z: 0.0\\n"
+  "  w: 0.0\\n"
+  "}\\n"
+  "scale {\\n"
+  "  x: 1.0\\n"
+  "  y: 1.0\\n"
+  "  z: 1.0\\n"
+  "  w: 0.0\\n"
+  "}\\n"
+  "color {\\n"
+  "  x: 0.3019608\\n"
+  "  y: 0.4\\n"
+  "  z: 0.8\\n"
+  "  w: 1.0\\n"
+  "}\\n"
+  "outline {\\n"
+  "  x: 0.0\\n"
+  "  y: 0.0\\n"
+  "  z: 0.0\\n"
+  "  w: 1.0\\n"
+  "}\\n"
+  "shadow {\\n"
+  "  x: 0.0\\n"
+  "  y: 0.0\\n"
+  "  z: 0.0\\n"
+  "  w: 1.0\\n"
+  "}\\n"
+  "leading: 1.0\\n"
+  "tracking: 0.0\\n"
+  "pivot: PIVOT_CENTER\\n"
+  "blend_mode: BLEND_MODE_ADD\\n"
+  "line_break: false\\n"
+  "text: \\\"DeLAB 2D - Glimmer Shader 0.1\\\"\\n"
+  "font: \\\"/builtins/fonts/system_font.font\\\"\\n"
+  "material: \\\"/builtins/fonts/label.material\\\"\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 178.0
+    y: 248.0
+    z: 0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "logo"
+  data: "embedded_components {\n"
+  "  id: \"sprite\"\n"
+  "  type: \"sprite\"\n"
+  "  data: \"tile_set: \\\"/assets/misc/shadow.atlas\\\"\\n"
+  "default_animation: \\\"DeLAB_logo\\\"\\n"
+  "material: \\\"/builtins/materials/sprite.material\\\"\\n"
+  "blend_mode: BLEND_MODE_ALPHA\\n"
+  "\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 26.0
+    y: 30.0
+    z: 0.1
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}

@@ -1,0 +1,26 @@
+local p1 = "/sword_amethyst#sprakle"; local p2 = "/sword_copper#sprakle"; local p3 = "/sword_ice#sprakle"; local p4 = "/sword_metal#sprakle"
+local time_txt = "/time#time"; local mat = "/sword_metal#sprite"
+
+local function spark(p)
+
+	local rtime = math.random(8.0,18.0)
+
+
+	particlefx.play(p)
+
+
+	timer.delay(rtime, false, function() spark(p) end)
+
+
+end
+
+
+function init(self)
+
+	msg.post("@render:", "clear_color", { color = vmath.vector4(0.08, 0.08, 0.2, 1) } )
+
+
+	spark(p1);spark(p2);spark(p3);spark(p4)
+
+
+end

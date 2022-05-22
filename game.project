@@ -1,0 +1,30 @@
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /main/render/animateshaders.renderc
+
+[script]
+shared_state = 1
+
+[display]
+width = 356
+height = 256
+
+[android]
+input_method = HiddenInputField
+
+[project]
+title = Delab 2D - Glimmer
+developer = Agustin R.
+
+[graphics]
+max_draw_calls = 156
+max_characters = 256
+max_debug_vertices = 1000
+
+[html5]
+cssfile = /builtins/manifests/web/dark_theme.css
+scale_mode = stretch
+
+[native_extension]
+app_manifest = /ALL.appmanifest
+
